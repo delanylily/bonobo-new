@@ -12,6 +12,7 @@ import { Application } from '@nativescript/core'
 @Component({
   selector: 'ns-app',
   templateUrl: 'app.component.html',
+  styleUrls: ['app.component.less']
 })
 export class AppComponent implements OnInit {
   private _activatedUrl: string

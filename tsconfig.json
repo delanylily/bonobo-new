@@ -17,5 +17,5 @@
   },
   "include": ["./src/**/*.ios.ts", "./src/**/*.android.ts"],
   "files": ["./src/main.ts", "./references.d.ts", "./src/polyfills.ts"],
-  "exclude": ["node_modules", "platforms"]
+  "exclude": ["node_modules", "src/app/platforms"]
 }
